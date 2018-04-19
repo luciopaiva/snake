@@ -1,0 +1,47 @@
+
+:root {
+    --map-width: 50;
+    --map-height: 35;
+    --tile-size: 20px;
+    --background-color-light: #00b700;
+    --background-color-dark: #00a700;
+    --fruit-color: #ff1e1c;
+    --snake-color: #3518bf;
+
+    font-family: sans-serif;
+}
+
+body {
+    padding: 10px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+
+    width: calc(var(--tile-size) * var(--map-width));
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background: #007600;
+    min-height: 40px;
+    height: 40px;
+
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+#body {
+    padding: 0;
+    margin: 0;
+}
